@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    setlocale(0, "");
+    double a, b;
+    char op;
+
+  
+    cout << "Выберите операцию: ";
+    cin >> op;
+
+    cout << "Введите два числа: ";
+    cin >> a >> b;
+
+    if (op == '+') {
+        cout << "Результат: " << a << " + " << b << " = " << a + b;
+    }
+    else if (op == '-') {
+        cout << "Результат: " << a << " - " << b << " = " << a - b;
+    }
+    else if (op == '*') {
+        cout << "Результат: " << a << " * " << b << " = " << a * b;
+    }
+    else if (op == '/') {
+        if (b == 0) cout << "Делить на 0 нельзя!";
+        else cout << "Результат: " << a << " / " << b << " = " << a / b;
+    }
+    else if (op == '%') {
+        if ((int)b == 0) cout << "Делить на 0 нельзя!";
+        else cout << "[ + ] Результат: " << (int)a << " % " << (int)b << " = " << ((int)a % (int)b);
+    }
+    else {
+        cout << "Неверная операция!";
+    }
+
+    return 0;
+}
