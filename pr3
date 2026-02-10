@@ -27,7 +27,7 @@ int main() {
 		cout << "Цифра в диапазоне: 51-60";
 	}
 	else if (number >= 61 and number <= 70) {
-		cout << "Цифра в диапазоне: 61-79";
+		cout << "Цифра в диапазоне: 61-70";
 	}
 	else if (number >= 71 and number <= 80) {
 		cout << "Цифра в диапазоне: 71-80";
