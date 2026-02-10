@@ -6,43 +6,43 @@ int main() {
 
 	int month, day;
 
-	cout << "Êàëåíäàðü" << endl;
-	cout << "[ 1 ] ßíâàðü" << endl;
-	cout << "[ 2 ] Ôåâðàëü" << endl;
-	cout << "[ 3 ] Ìàðò" << endl;
-	cout << "[ 4 ] Àïðåëü" << endl;
-	cout << "[ 5 ] Ìàé" << endl;
-	cout << "[ 6 ] Èþíü" << endl;
-	cout << "[ 7 ] Èþëü" << endl;
-	cout << "[ 8 ] Àâãóñò" << endl;
-	cout << "[ 9 ] Ñåíòÿáðü" << endl;
-	cout << "[ 10 ] Îêòÿáðü" << endl;
-	cout << "[ 11 ] Íîÿáðü" << endl;
-	cout << "[ 12 ] Äåêàáðü" << endl;
+	cout << "ÐšÐ°Ð»ÐµÐ½Ð´Ð°Ñ€ÑŒ" << endl;
+	cout << "[ 1 ] Ð¯Ð½Ð²Ð°Ñ€ÑŒ" << endl;
+	cout << "[ 2 ] Ð¤ÐµÐ²Ñ€Ð°Ð»ÑŒ" << endl;
+	cout << "[ 3 ] ÐœÐ°Ñ€Ñ‚" << endl;
+	cout << "[ 4 ] ÐÐ¿Ñ€ÐµÐ»ÑŒ" << endl;
+	cout << "[ 5 ] ÐœÐ°Ð¹" << endl;
+	cout << "[ 6 ] Ð˜ÑŽÐ½ÑŒ" << endl;
+	cout << "[ 7 ] Ð˜ÑŽÐ»ÑŒ" << endl;
+	cout << "[ 8 ] ÐÐ²Ð³ÑƒÑÑ‚" << endl;
+	cout << "[ 9 ] Ð¡ÐµÐ½Ñ‚ÑÐ±Ñ€ÑŒ" << endl;
+	cout << "[ 10 ] ÐžÐºÑ‚ÑÐ±Ñ€ÑŒ" << endl;
+	cout << "[ 11 ] ÐÐ¾ÑÐ±Ñ€ÑŒ" << endl;
+	cout << "[ 12 ] Ð”ÐµÐºÐ°Ð±Ñ€ÑŒ" << endl;
 
-	cout << "Âûáåðèòå ìåñÿö: ";
+	cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¼ÐµÑÑÑ†: ";
 	cin >> month;
 
 	switch (month) {
-	case 1:  cout << "Âûáðàí ìåñÿö - \"ßíâàðü\"" << endl; break;
-	case 2:  cout << "Âûáðàí ìåñÿö - \"Ôåâðàëü\"" << endl; break;
-	case 3:  cout << "Âûáðàí ìåñÿö - \"Ìàðò\"" << endl; break;
-	case 4:  cout << "Âûáðàí ìåñÿö - \"Àïðåëü\"" << endl; break;
-	case 5:  cout << "Âûáðàí ìåñÿö - \"Ìàé\"" << endl; break;
-	case 6:  cout << "Âûáðàí ìåñÿö - \"Èþíü\"" << endl; break;
-	case 7:  cout << "Âûáðàí ìåñÿö - \"Èþëü\"" << endl; break;
-	case 8:  cout << "Âûáðàí ìåñÿö - \"Àâãóñò\"" << endl; break;
-	case 9:  cout << "Âûáðàí ìåñÿö - \"Ñåíòÿáðü\"" << endl; break;
-	case 10: cout << "Âûáðàí ìåñÿö - \"Îêòÿáðü\"" << endl; break;
-	case 11: cout << "Âûáðàí ìåñÿö - \"Íîÿáðü\"" << endl; break;
-	case 12: cout << "Âûáðàí ìåñÿö - \"Äåêàáðü\"" << endl; break;
+	case 1:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"Ð¯Ð½Ð²Ð°Ñ€ÑŒ\"" << endl; break;
+	case 2:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"Ð¤ÐµÐ²Ñ€Ð°Ð»ÑŒ\"" << endl; break;
+	case 3:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"ÐœÐ°Ñ€Ñ‚\"" << endl; break;
+	case 4:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"ÐÐ¿Ñ€ÐµÐ»ÑŒ\"" << endl; break;
+	case 5:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"ÐœÐ°Ð¹\"" << endl; break;
+	case 6:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"Ð˜ÑŽÐ½ÑŒ\"" << endl; break;
+	case 7:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"Ð˜ÑŽÐ»ÑŒ\"" << endl; break;
+	case 8:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"ÐÐ²Ð³ÑƒÑÑ‚\"" << endl; break;
+	case 9:  cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"Ð¡ÐµÐ½Ñ‚ÑÐ±Ñ€ÑŒ\"" << endl; break;
+	case 10: cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"ÐžÐºÑ‚ÑÐ±Ñ€ÑŒ\"" << endl; break;
+	case 11: cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"ÐÐ¾ÑÐ±Ñ€ÑŒ\"" << endl; break;
+	case 12: cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¼ÐµÑÑÑ† - \"Ð”ÐµÐºÐ°Ð±Ñ€ÑŒ\"" << endl; break;
 
 	default:
-		cout << " ! Íåïðàâèëüíî ââåäåí íîìåð ìåñÿöà!" << endl;
+		cout << " ! ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½ Ð½Ð¾Ð¼ÐµÑ€ Ð¼ÐµÑÑÑ†Ð°!" << endl;
 		return 0;
 	}
 
-	cout << "Âûáåðèòå äåíü ìåñÿöà: ";
+	cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð´ÐµÐ½ÑŒ Ð¼ÐµÑÑÑ†Ð°: ";
 	cin >> day;
 
 	switch (day) {
@@ -50,21 +50,21 @@ int main() {
 	case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
 	case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 29: case 30:
 	case 31:
-		cout << "[ + ] Êàëåíäàðü: " << day << " ";
+		cout << "[ + ] ÐšÐ°Ð»ÐµÐ½Ð´Ð°Ñ€ÑŒ: " << day << " ";
 
 		switch (month) {
-		case 1:  cout << "ÿíâàðÿ."; break;
-		case 2:  cout << "ôåâðàëÿ."; break;
-		case 3:  cout << "ìàðòà."; break;
-		case 4:  cout << "àïðåëÿ."; break;
-		case 5:  cout << "ìàÿ."; break;
-		case 6:  cout << "èþíÿ."; break;
-		case 7:  cout << "èþëÿ."; break;
-		case 8:  cout << "àâãóñòà."; break;
-		case 9:  cout << "ñåíòÿáðÿ."; break;
-		case 10: cout << "îêòÿáðÿ."; break;
-		case 11: cout << "íîÿáðÿ."; break;
-		case 12: cout << "äåêàáðÿ."; break;
+		case 1:  cout << "ÑÐ½Ð²Ð°Ñ€Ñ."; break;
+		case 2:  cout << "Ñ„ÐµÐ²Ñ€Ð°Ð»Ñ."; break;
+		case 3:  cout << "Ð¼Ð°Ñ€Ñ‚Ð°."; break;
+		case 4:  cout << "Ð°Ð¿Ñ€ÐµÐ»Ñ."; break;
+		case 5:  cout << "Ð¼Ð°Ñ."; break;
+		case 6:  cout << "Ð¸ÑŽÐ½Ñ."; break;
+		case 7:  cout << "Ð¸ÑŽÐ»Ñ."; break;
+		case 8:  cout << "Ð°Ð²Ð³ÑƒÑÑ‚Ð°."; break;
+		case 9:  cout << "ÑÐµÐ½Ñ‚ÑÐ±Ñ€Ñ."; break;
+		case 10: cout << "Ð¾ÐºÑ‚ÑÐ±Ñ€Ñ."; break;
+		case 11: cout << "Ð½Ð¾ÑÐ±Ñ€Ñ."; break;
+		case 12: cout << "Ð´ÐµÐºÐ°Ð±Ñ€Ñ."; break;
 		default: cout << "???"; break;
 		}
 
@@ -72,7 +72,7 @@ int main() {
 		break;
 
 	default:
-		cout << " ! Íåïðàâèëüíî ââåäåí äåíü ìåñÿöà!" << endl;
+		cout << " ! ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½ Ð´ÐµÐ½ÑŒ Ð¼ÐµÑÑÑ†Ð°!" << endl;
 		break;
 	}
 
