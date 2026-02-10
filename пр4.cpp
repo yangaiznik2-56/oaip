@@ -4,29 +4,29 @@ using namespace std;
 int main() {
     setlocale(0, "");
 
-    cout << "Ââåäèòå ÷èñëî: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
     int number;
     cin >> number;
 
     int a = 1;
 
     while (a <= 9) {
-        cout << "Ðåøèòå ïðèìåð: " << number << " x " << a << endl;
+        cout << "Ð ÐµÑˆÐ¸Ñ‚Ðµ Ð¿Ñ€Ð¸Ð¼ÐµÑ€: " << number << " x " << a << endl;
 
         int answ;
         cin >> answ;
 
         if (answ == number * a) {
-            cout << "Îòâåò: " << answ << endl;
-            cout << "Ïðèìåð ðåøåí ïðàâèëüíî!" << endl;
+            cout << "ÐžÑ‚Ð²ÐµÑ‚: " << answ << endl;
+            cout << "ÐŸÑ€Ð¸Ð¼ÐµÑ€ Ñ€ÐµÑˆÐµÐ½ Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ð¾!" << endl;
             a = a + 1;
         }
         else {
-            cout << "Îøèáêà, ïðèìåð ðåøåí íåâåðíî!" << endl;
+            cout << "ÐžÑˆÐ¸Ð±ÐºÐ°, Ð¿Ñ€Ð¸Ð¼ÐµÑ€ Ñ€ÐµÑˆÐµÐ½ Ð½ÐµÐ²ÐµÑ€Ð½Ð¾!" << endl;
             return 0;
         }
     }
 
-    cout << "Âñå ïðèìåðû ðåøåíû!" << endl;
+    cout << "Ð’ÑÐµ Ð¿Ñ€Ð¸Ð¼ÐµÑ€Ñ‹ Ñ€ÐµÑˆÐµÐ½Ñ‹!" << endl;
     return 0;
 }
