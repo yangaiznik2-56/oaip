@@ -6,56 +6,56 @@ int main() {
 
 	int menu;
 
-	cout << "Переводчик" << endl;
-	cout << "[ 1 ] Русские слова" << endl;
-	cout << "[ 2 ] Английские слова" << endl;
-	cout << "[ 3 ] Выйти" << endl;
-	cout << "Выберите пункт: ";
+	cout << "РџРµСЂРµРІРѕРґС‡РёРє" << endl;
+	cout << "[ 1 ] Р СѓСЃСЃРєРёРµ СЃР»РѕРІР°" << endl;
+	cout << "[ 2 ] РђРЅРіР»РёР№СЃРєРёРµ СЃР»РѕРІР°" << endl;
+	cout << "[ 3 ] Р’С‹Р№С‚Рё" << endl;
+	cout << "Р’С‹Р±РµСЂРёС‚Рµ РїСѓРЅРєС‚: ";
 	cin >> menu;
 
 	switch (menu) {
 	case 1: {
 		int word;
 
-		cout << "Переводчик \"Список русских слов\"" << endl;
-		cout << "[ 1 ] Дом" << endl;
-		cout << "[ 2 ] Дорога" << endl;
-		cout << "[ 3 ] Книга" << endl;
-		cout << "[ 4 ] Окно" << endl;
-		cout << "[ 5 ] Стол" << endl;
-		cout << "[ 6 ] Вода" << endl;
-		cout << "[ 7 ] Солнце" << endl;
-		cout << "[ 8 ] Ночь" << endl;
-		cout << "[ 9 ] Город" << endl;
-		cout << "[ 10 ] Машина" << endl;
-		cout << "[ 11 ] Телефон" << endl;
-		cout << "[ 12 ] Работа" << endl;
-		cout << "[ 13 ] Еда" << endl;
-		cout << "[ 14 ] Друг" << endl;
-		cout << "[ 15 ] Время" << endl;
+		cout << "РџРµСЂРµРІРѕРґС‡РёРє \"РЎРїРёСЃРѕРє СЂСѓСЃСЃРєРёС… СЃР»РѕРІ\"" << endl;
+		cout << "[ 1 ] Р”РѕРј" << endl;
+		cout << "[ 2 ] Р”РѕСЂРѕРіР°" << endl;
+		cout << "[ 3 ] РљРЅРёРіР°" << endl;
+		cout << "[ 4 ] РћРєРЅРѕ" << endl;
+		cout << "[ 5 ] РЎС‚РѕР»" << endl;
+		cout << "[ 6 ] Р’РѕРґР°" << endl;
+		cout << "[ 7 ] РЎРѕР»РЅС†Рµ" << endl;
+		cout << "[ 8 ] РќРѕС‡СЊ" << endl;
+		cout << "[ 9 ] Р“РѕСЂРѕРґ" << endl;
+		cout << "[ 10 ] РњР°С€РёРЅР°" << endl;
+		cout << "[ 11 ] РўРµР»РµС„РѕРЅ" << endl;
+		cout << "[ 12 ] Р Р°Р±РѕС‚Р°" << endl;
+		cout << "[ 13 ] Р•РґР°" << endl;
+		cout << "[ 14 ] Р”СЂСѓРі" << endl;
+		cout << "[ 15 ] Р’СЂРµРјСЏ" << endl;
 
-		cout << "Выберите номер слова: ";
+		cout << "Р’С‹Р±РµСЂРёС‚Рµ РЅРѕРјРµСЂ СЃР»РѕРІР°: ";
 		cin >> word;
 
 		switch (word) {
-		case 1:  cout << "Перевод: дом > house" << endl; break;
-		case 2:  cout << "Перевод: дорога > road" << endl; break;
-		case 3:  cout << "Перевод: книга > book" << endl; break;
-		case 4:  cout << "Перевод: окно > window" << endl; break;
-		case 5:  cout << "Перевод: стол > table" << endl; break;
-		case 6:  cout << "Перевод: вода > water" << endl; break;
-		case 7:  cout << "Перевод: солнце > sun" << endl; break;
-		case 8:  cout << "Перевод: ночь > night" << endl; break;
-		case 9:  cout << "Перевод: город > city" << endl; break;
-		case 10: cout << "Перевод: машина > car" << endl; break;
-		case 11: cout << "Перевод: телефон > phone" << endl; break;
-		case 12: cout << "Перевод: работа > work" << endl; break;
-		case 13: cout << "Перевод: еда > food" << endl; break;
-		case 14: cout << "Перевод: друг > friend" << endl; break;
-		case 15: cout << "Перевод: время > time" << endl; break;
+		case 1:  cout << "РџРµСЂРµРІРѕРґ: РґРѕРј > house" << endl; break;
+		case 2:  cout << "РџРµСЂРµРІРѕРґ: РґРѕСЂРѕРіР° > road" << endl; break;
+		case 3:  cout << "РџРµСЂРµРІРѕРґ: РєРЅРёРіР° > book" << endl; break;
+		case 4:  cout << "РџРµСЂРµРІРѕРґ: РѕРєРЅРѕ > window" << endl; break;
+		case 5:  cout << "РџРµСЂРµРІРѕРґ: СЃС‚РѕР» > table" << endl; break;
+		case 6:  cout << "РџРµСЂРµРІРѕРґ: РІРѕРґР° > water" << endl; break;
+		case 7:  cout << "РџРµСЂРµРІРѕРґ: СЃРѕР»РЅС†Рµ > sun" << endl; break;
+		case 8:  cout << "РџРµСЂРµРІРѕРґ: РЅРѕС‡СЊ > night" << endl; break;
+		case 9:  cout << "РџРµСЂРµРІРѕРґ: РіРѕСЂРѕРґ > city" << endl; break;
+		case 10: cout << "РџРµСЂРµРІРѕРґ: РјР°С€РёРЅР° > car" << endl; break;
+		case 11: cout << "РџРµСЂРµРІРѕРґ: С‚РµР»РµС„РѕРЅ > phone" << endl; break;
+		case 12: cout << "РџРµСЂРµРІРѕРґ: СЂР°Р±РѕС‚Р° > work" << endl; break;
+		case 13: cout << "РџРµСЂРµРІРѕРґ: РµРґР° > food" << endl; break;
+		case 14: cout << "РџРµСЂРµРІРѕРґ: РґСЂСѓРі > friend" << endl; break;
+		case 15: cout << "РџРµСЂРµРІРѕРґ: РІСЂРµРјСЏ > time" << endl; break;
 
 		default:
-			cout << "[ ! ] Неправильно введен номер слова!" << endl;
+			cout << "[ ! ] РќРµРїСЂР°РІРёР»СЊРЅРѕ РІРІРµРґРµРЅ РЅРѕРјРµСЂ СЃР»РѕРІР°!" << endl;
 			break;
 		}
 		break;
@@ -64,7 +64,7 @@ int main() {
 	case 2: {
 		int word;
 
-		cout << "[ + ] Переводчик \"Список английских слов\"" << endl;
+		cout << "[ + ] РџРµСЂРµРІРѕРґС‡РёРє \"РЎРїРёСЃРѕРє Р°РЅРіР»РёР№СЃРєРёС… СЃР»РѕРІ\"" << endl;
 		cout << "[ 1 ] House" << endl;
 		cout << "[ 2 ] Road" << endl;
 		cout << "[ 3 ] Book" << endl;
@@ -81,39 +81,39 @@ int main() {
 		cout << "[ 14 ] Friend" << endl;
 		cout << "[ 15 ] Time" << endl;
 
-		cout << "[ + ] Выберите номер слова: ";
+		cout << "[ + ] Р’С‹Р±РµСЂРёС‚Рµ РЅРѕРјРµСЂ СЃР»РѕРІР°: ";
 		cin >> word;
 
 		switch (word) {
-		case 1:  cout << "Перевод: house -> дом" << endl; break;
-		case 2:  cout << "Перевод: road -> дорога" << endl; break;
-		case 3:  cout << "Перевод: book -> книга" << endl; break;
-		case 4:  cout << "Перевод: window -> окно" << endl; break;
-		case 5:  cout << "Перевод: table -> стол" << endl; break;
-		case 6:  cout << "Перевод: water -> вода" << endl; break;
-		case 7:  cout << "Перевод: sun -> солнце" << endl; break;
-		case 8:  cout << "Перевод: night -> ночь" << endl; break;
-		case 9:  cout << "Перевод: city -> город" << endl; break;
-		case 10: cout << "Перевод: car -> машина" << endl; break;
-		case 11: cout << "Перевод: phone -> телефон" << endl; break;
-		case 12: cout << "Перевод: work -> работа" << endl; break;
-		case 13: cout << "Перевод: food -> еда" << endl; break;
-		case 14: cout << "Перевод: friend -> друг" << endl; break;
-		case 15: cout << "Перевод: time -> время" << endl; break;
+		case 1:  cout << "РџРµСЂРµРІРѕРґ: house -> РґРѕРј" << endl; break;
+		case 2:  cout << "РџРµСЂРµРІРѕРґ: road -> РґРѕСЂРѕРіР°" << endl; break;
+		case 3:  cout << "РџРµСЂРµРІРѕРґ: book -> РєРЅРёРіР°" << endl; break;
+		case 4:  cout << "РџРµСЂРµРІРѕРґ: window -> РѕРєРЅРѕ" << endl; break;
+		case 5:  cout << "РџРµСЂРµРІРѕРґ: table -> СЃС‚РѕР»" << endl; break;
+		case 6:  cout << "РџРµСЂРµРІРѕРґ: water -> РІРѕРґР°" << endl; break;
+		case 7:  cout << "РџРµСЂРµРІРѕРґ: sun -> СЃРѕР»РЅС†Рµ" << endl; break;
+		case 8:  cout << "РџРµСЂРµРІРѕРґ: night -> РЅРѕС‡СЊ" << endl; break;
+		case 9:  cout << "РџРµСЂРµРІРѕРґ: city -> РіРѕСЂРѕРґ" << endl; break;
+		case 10: cout << "РџРµСЂРµРІРѕРґ: car -> РјР°С€РёРЅР°" << endl; break;
+		case 11: cout << "РџРµСЂРµРІРѕРґ: phone -> С‚РµР»РµС„РѕРЅ" << endl; break;
+		case 12: cout << "РџРµСЂРµРІРѕРґ: work -> СЂР°Р±РѕС‚Р°" << endl; break;
+		case 13: cout << "РџРµСЂРµРІРѕРґ: food -> РµРґР°" << endl; break;
+		case 14: cout << "РџРµСЂРµРІРѕРґ: friend -> РґСЂСѓРі" << endl; break;
+		case 15: cout << "РџРµСЂРµРІРѕРґ: time -> РІСЂРµРјСЏ" << endl; break;
 
 		default:
-			cout << " ! Неправильно введен номер слова!" << endl;
+			cout << " ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РІРІРµРґРµРЅ РЅРѕРјРµСЂ СЃР»РѕРІР°!" << endl;
 			break;
 		}
 		break;
 	}
 
 	case 3:
-		cout << "Выход..." << endl;
+		cout << "Р’С‹С…РѕРґ..." << endl;
 		break;
 
 	default:
-		cout << " ! Неправильно выбран пункт меню!" << endl;
+		cout << " ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РІС‹Р±СЂР°РЅ РїСѓРЅРєС‚ РјРµРЅСЋ!" << endl;
 		break;
 	}
 
