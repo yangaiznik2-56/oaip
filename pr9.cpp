@@ -26,8 +26,9 @@ int main() {
 			i++;
 		}
 
-		cout << "\n";
+		cout << endl;
 	}
 
 	return 0;
 }
+
